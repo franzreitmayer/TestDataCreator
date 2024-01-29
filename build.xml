@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     04.10.2007 13:17:21                                                        
+
+     project    
+     description
+                   
+     reitmayer                                                                
+     ====================================================================== -->
+<project name="project" default="default">
+    <description>
+            description
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" description="--> description">
+        <jar manifest="resources/jar/MANIFEST.MF" basedir="bin" file="testdatacreator.jar">
+			<include name="**/*" />
+        </jar>
+    </target>
+
+</project>

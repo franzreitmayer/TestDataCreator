@@ -1,0 +1,2 @@
+Mainfest-Version: 1.2
+Main-Class: eu.reitmayer.testdatacreator.ui.MainFrame

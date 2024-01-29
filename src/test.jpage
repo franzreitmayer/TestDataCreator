@@ -1,0 +1,1 @@
+System.out.println((int)System.getProperty("line.separator").charAt(1));
